@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Raleway:wght@300&display=swap');
+
+*{        
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+
+}
+
+body{
+  height: 100%;
+  font-family: "Raleway",sans-serif;
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar{
+  width: 0.25rem;
+}
+
+
+body::-webkit-scrollbar-track{
+  background-color: black;
+}
+
+
+body::-webkit-scrollbar-thumb{
+  background-color: green;
+}
+
+
+.card{
+  padding: 10px 10px;
+  background-color: black;
+  color: white;
+  border: 2px solid red;
+  margin: 10px 0px;
+
+}
+
+.Logo{
+  width: 13%;
+  /* margin-top: 10px; */
+}
+
+.navbar{
+  border-bottom: 3px solid green ;
+}
+
+.nav-link h6{
+  font-weight: 500;
+}
+
+.nav-item:hover{
+  border-bottom: 2px solid green;
+  transition: 500ms ease-in;
+}
+
+.nav-item:hover .nav-link h6{
+  font-size: 1rem;
+  font-weight: 1000;
+  color: green;
+}
+
+.imglogo{
+  /* height: 70%; */
+  width: 100%;
+}
+
+/* .AppJs{
+  background-color: rgb(219, 137, 137);
+} */
